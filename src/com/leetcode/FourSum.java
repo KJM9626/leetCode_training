@@ -2,7 +2,16 @@ package com.leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.UUID;
+
+import javax.swing.event.ListSelectionEvent;
 
 /**
  * @author 明
@@ -30,6 +39,7 @@ import java.util.List;
 public class FourSum {
 	
 	public static List<List<Integer>> fourSum(int[]nums,int target){
+		
 		List<List<Integer>> answer=new ArrayList<List<Integer>>();
 		int len=nums.length;
 		if(nums==null||len<4)

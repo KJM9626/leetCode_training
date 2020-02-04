@@ -1,5 +1,6 @@
 package com.leetcode;
 
+import com.leetcode.MergeTwoLists.ListNode;
 
 /**
  * @author 明
@@ -51,5 +52,20 @@ public class AddTwoNumbers {
 		}
 		return head.next;
 	}
-
+	
+	public static void main(String[] args) {
+		ListNode listNode = new ListNode(3);
+		listNode.next=new ListNode(4);
+		listNode.next.next=new ListNode(2);
+		
+		ListNode listNode2=new ListNode(4);
+		listNode2.next=new ListNode(6);
+		listNode2.next.next=new ListNode(7);
+		ListNode lists = AddTwoNumbers.addTwoNumbers(listNode, listNode2);
+		while(lists!=null) {
+			System.out.print(lists.val+" ");
+			lists=lists.next;
+		
+	}
+	}
 }
