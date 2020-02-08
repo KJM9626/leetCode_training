@@ -22,14 +22,7 @@ import com.leetcode.MergeTwoLists.ListNode;
 
 
 public class AddTwoNumbers {
-	
-	static class ListNode{
-		int val;
-		ListNode next;
-		public ListNode(int x) {
-			val=x;
-		}
-	} 
+
 	public static ListNode addTwoNumbers(ListNode l1,ListNode l2) {
 		
 		ListNode head=new ListNode(0);

@@ -23,14 +23,6 @@ import com.leetcode.MergeTwoLists.ListNode;
 
 public class MergeKLists {
 
-	static class ListNode{
-		int val;
-		ListNode next;
-		public ListNode(int x) {
-			val=x;
-		}
-	}
-	
 	public static ListNode mergeKLists(ListNode[] lists) {
 		if(lists.length==0)
 			 return null;

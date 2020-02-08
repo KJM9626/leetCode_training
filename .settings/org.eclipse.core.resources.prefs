@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/com/leetcode/AddTwoNumbers.java=UTF-8
+encoding//src/com/leetcode/Divide.java=UTF-8
 encoding//src/com/leetcode/FourSum.java=UTF-8
 encoding//src/com/leetcode/IsPalindrome.java=UTF-8
 encoding//src/com/leetcode/LengthOfLongestSubstring.java=UTF-8
@@ -9,6 +10,9 @@ encoding//src/com/leetcode/MaxArea.java=UTF-8
 encoding//src/com/leetcode/MergeKLists.java=UTF-8
 encoding//src/com/leetcode/MergeTwoLists.java=UTF-8
 encoding//src/com/leetcode/MyAtoi.java=UTF-8
+encoding//src/com/leetcode/RemoveDuplicates.java=UTF-8
 encoding//src/com/leetcode/Reverse.java=UTF-8
+encoding//src/com/leetcode/Search.java=UTF-8
+encoding//src/com/leetcode/SwapPairs.java=UTF-8
 encoding//src/com/leetcode/ThreeSum.java=UTF-8
 encoding//src/com/leetcode/TwoSum.java=UTF-8

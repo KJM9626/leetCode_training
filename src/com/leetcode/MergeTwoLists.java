@@ -13,14 +13,6 @@ package com.leetcode;
 
  */
 public class MergeTwoLists {
-
-	static class ListNode{
-		int val;
-		ListNode next;
-		public ListNode(int x) {
-			val=x;
-		}
-	}
 	
 	public static ListNode mergeTwoLists(ListNode l1,ListNode l2) {
 		
