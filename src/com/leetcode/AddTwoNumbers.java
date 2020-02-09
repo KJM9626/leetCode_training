@@ -1,7 +1,5 @@
 package com.leetcode;
 
-import com.leetcode.MergeTwoLists.ListNode;
-
 /**
  * @author 明
  *两数相加

@@ -1,7 +1,5 @@
 package com.leetcode;
 
-import com.leetcode.MergeTwoLists.ListNode;
-
 /**
  * @author 明
  *合并K个排序链表
