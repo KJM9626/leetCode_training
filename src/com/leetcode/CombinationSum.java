@@ -54,7 +54,7 @@ public class CombinationSum {
 		
 		//遍历，index为本分支上一节点的减数的下标
 		for(int i=index;i<candidates.length;i++) {
-			if(candidates[index]<=target) {//如果减数小于等于目标值，则符合要求
+			if(candidates[i]<=target) {//如果减数小于等于目标值，则符合要求
 				pre.push(candidates[i]);//符合要求的减数入栈
 				dfs(target-candidates[i], i, pre, candidates);
 				pre.pop();//每次回溯将最后一个加入的元素删除
@@ -63,10 +63,10 @@ public class CombinationSum {
 	}
 	
 	public static void main(String[] args) {
-		int [] candidates= {7,2,6,3};
-		Arrays.sort(candidates);
+		int [] candidates= {5,2,3};
+//		Arrays.sort(candidates);
 		CombinationSum sum = new CombinationSum();
-		List<List<Integer>> list = sum.combinationSum(candidates, 7);
+		List<List<Integer>> list = sum.combinationSum(candidates, 8);
 		for(int i=0;i<list.size();i++) {
 			System.out.print(list.get(i)+" ");
 		}
